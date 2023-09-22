@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #212529;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.name{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name span{
+    color: #fff;
+    font-size: 65px;
+    letter-spacing: 0.5em;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    transition: all .5s;
+    animation: anim 2.15s infinite;
+}
+
+@keyframes anim{
+    0%{
+        color: #ffffff1a;
+        transform: translateY(0);
+        margin-left: 0;
+    }
+    25%{
+        color: #6cbebe;
+        transform: translateY(-15px);
+        margin-left: 15px;
+        text-shadow: 0 15px 5px rgba(0, 0, 0, 1);
+    }
+    100%{
+        color: #ffffff1a;
+        transform: translateY(0);
+    }
+}
+
+.name span:nth-child(1){
+    animation-delay: 0.1s;
+}
+.name span:nth-child(2){
+    animation-delay: 0.2s;
+}
+.name span:nth-child(3){
+    animation-delay: 0.3s;
+}
+.name span:nth-child(4){
+    animation-delay: 0.4s;
+}
+.name span:nth-child(5){
+    animation-delay: 0.5s;
+}
+.name span:nth-child(6){
+    animation-delay: 0.6s;
+}
+.name span:nth-child(7){
+    animation-delay: 0.7s;
+}
+.name span:nth-child(8){
+    animation-delay: 0.8s;
+}
+
